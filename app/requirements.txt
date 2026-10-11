@@ -1,0 +1,11 @@
+# Installed with --no-deps in the image (plain pip would swap ROCm torch
+# for a CUDA build — the documented trap). torch+PIL ship in the base.
+transformers>=4.44
+pillow>=10
+pypdf>=4
+python-docx>=1.1
+openpyxl>=3.1
+rank-bm25>=0.2.2
+opencv-python-headless>=4.8
+sentencepiece>=0.2
+numpy<2
